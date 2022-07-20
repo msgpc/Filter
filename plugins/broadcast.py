@@ -1,3 +1,5 @@
+# (c) PR0FESS0R-99
+
 import asyncio
 import datetime
 import os
@@ -14,7 +16,7 @@ from pyrogram.errors import (
     UserIsBlocked,
 )
 
-from info import BROADCAST_AS_COPY
+from Config import BROADCAST_AS_COPY
 
 broadcast_ids = {}
 
