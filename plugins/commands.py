@@ -5,6 +5,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from info import START_MSG, CHANNELS, ADMINS, AUTH_CHANNEL, CUSTOM_FILE_CAPTION, ADMIN_ID, BROADCAST_CHANNEL, DB_URL, SESSION, ADMIN_ID    
 from utils import Media, get_file_details
 from plugins.broadcast import broadcast
+from Database import Database
 from pyrogram.errors import UserNotParticipant
 logger = logging.getLogger(__name__)
 
